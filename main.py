@@ -96,6 +96,6 @@ async def on_voice_state_update(
     except discord.HTTPException as e:
         print(f"❌ HTTP Error ขณะเปลี่ยนชื่อเซิร์ฟเวอร์: {e}")
 
-
+server_on()
 # รันบอท
 bot.run(os.getenv('TOKEN'))
